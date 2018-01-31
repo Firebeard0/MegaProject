@@ -21,13 +21,14 @@ vector<CrimeData> FileController :: readCrimeDataToVector(string filename)
         
     while (!dataFile.eof())
         {
-            getline(dataFile, currentCVSLine, '\r');
+            getline(dataFile, currentCVSLine, '\n');
             
             if (rowCount != 0)
             {
-                
+                if (currentCVSLine.length()!= 0){
                 CrimeData row(currentCVSLine);
                 crimeVector.push_back(row);
+                }
             }
             rowCount++;
         }
