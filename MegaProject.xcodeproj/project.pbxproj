@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FBB94D93202244000067688E /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBB94D92202244000067688E /* Runner.cpp */; };
 		FBB94D97202244750067688E /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBB94D95202244750067688E /* Controller.cpp */; };
+		FBB94D9B202247580067688E /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBB94D99202247580067688E /* Timer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		FBB94D92202244000067688E /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		FBB94D95202244750067688E /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		FBB94D96202244750067688E /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		FBB94D99202247580067688E /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		FBB94D9A202247580067688E /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +72,20 @@
 		FBB94D942022444E0067688E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FBB94D98202247440067688E /* New Group */,
 				FBB94D95202244750067688E /* Controller.cpp */,
 				FBB94D96202244750067688E /* Controller.hpp */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		FBB94D98202247440067688E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				FBB94D99202247580067688E /* Timer.cpp */,
+				FBB94D9A202247580067688E /* Timer.hpp */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB94D9B202247580067688E /* Timer.cpp in Sources */,
 				FBB94D93202244000067688E /* Runner.cpp in Sources */,
 				FBB94D97202244750067688E /* Controller.cpp in Sources */,
 			);
