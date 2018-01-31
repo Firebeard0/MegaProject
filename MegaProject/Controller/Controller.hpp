@@ -9,6 +9,13 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
-#include <stdio.h>
+#include <iostream>
+#include <vector>
+
+class Controller
+{
+public:
+    void start();
+};
 
 #endif /* Controller_hpp */
