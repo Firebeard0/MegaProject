@@ -6,7 +6,7 @@
 //  Copyright © 2018 Uffens, Noah. All rights reserved.
 //
 
-#include "Controller/Controler.hpp"
+#include "Controller/Controller.hpp"
 int main()
 {
     Controller app;
