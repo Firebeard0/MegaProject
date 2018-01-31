@@ -12,6 +12,11 @@ using namespace std;
 
 void Controller:: start()
 {
-    
-    
+    Timer codeTimer;
+    codeTimer.startTimer();
+    cout << "look on the screen" << endl;
+    codeTimer.stopTimer();
+    codeTimer.displayInformation();
+    codeTimer.resetTimer();
+    codeTimer.startTimer90;
 }
