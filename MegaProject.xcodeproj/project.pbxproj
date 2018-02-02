@@ -27,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB8ACC062024EEE4001D91C5 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		FBB94D882022434E0067688E /* MegaProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB94D92202244000067688E /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		FBB94D95202244750067688E /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -51,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB8ACC012024EE63001D91C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB8ACC062024EEE4001D91C5 /* Array.hpp */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FBB94D7F2022434E0067688E = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +79,7 @@
 		FBB94D8A2022434E0067688E /* MegaProject */ = {
 			isa = PBXGroup;
 			children = (
+				FB8ACC012024EE63001D91C5 /* Model */,
 				FBB94DA0202250B00067688E /* Data */,
 				FBB94D942022444E0067688E /* Controller */,
 				FBB94D92202244000067688E /* Runner.cpp */,
