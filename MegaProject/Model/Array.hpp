@@ -44,7 +44,7 @@ Array<Type> :: Array(int size)
 }
 
 template <class Type>
-Array<Type> :: Array (const Array<Type & toCopy)
+Array<Type> :: Array (const Array<Type> & toCopy)
 {
     this -> size = toCopy.getSze();
     
@@ -53,13 +53,15 @@ Array<Type> :: Array (const Array<Type & toCopy)
     for (int i = 0; i < size; i++)
     {
         internalArray[i] = toCopy[i];
+    }
 }
     
     template <class Type>
-    Array<Type> ::  ~Array()
+    Array<Type> :: ~Array()
     {
         delete [] internalArray;
     }
+
     
     template <class Type>
     Array<Type> & Array<Type> :: operator = (const Array<Type> & toAssign)
@@ -94,7 +96,6 @@ Array<Type> :: Array (const Array<Type & toCopy)
         assert(index >= 0 && index < size);
         return internalArray[index];
     }
-    
     template <class Type>
     int Array<Type> :: getSize() const
     {

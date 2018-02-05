@@ -7,12 +7,14 @@
 //
 
 #include "Controller.hpp"
+#include "vector"
+#include "iostream"
 
 using namespace std;
 
 void Controller:: start()
 {
-    
+    homeworkArray();
     findMinAndMax();
 //    Timer codeTimer;
 //    codeTimer.startTimer();
@@ -30,6 +32,15 @@ void Controller:: start()
 //    }
 //    codeTimer.stopTimer();
 //    codeTimer.displayInformation();
+}
+
+void Controller :: testArray()
+{
+    Array<int> noahArray(45);
+    
+    noahArray[0] = 123;
+    noahArray.setAtIndex(0,321);
+    cout << noahArray[0] << endl;
 }
 
 void Controller :: findMinAndMax()
@@ -57,4 +68,29 @@ void Controller :: findMinAndMax()
     cout << "the largest crime stat is at " << maxIndex << " and it is " << myData[maxIndex] << endl;
     searchTimer.stopTimer();
     searchTimer.displayInformation();
+}
+
+void Controller :: homeworkArray()
+{
+    int grah [4] = { 12, 13, 14, 15};
+    double boo [3] = {11.4, 9.9, 32.9};
+    string sucks [2] = {"hello", "Hi"};
+    
+    for (int i = 0; i < 4; i++)
+    {
+        cout << grah[i] << endl;
+    }
+    for (int i = 0; i < 3; i++)
+    {
+        cout << boo[i] << endl;
+    }
+    for (int i = 0; i < 2; i++)
+    {
+        cout << sucks[i] << endl;
+    }
+}
+
+void Controller :: howToVector()
+{
+    
 }
