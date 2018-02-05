@@ -14,8 +14,8 @@ using namespace std;
 
 void Controller:: start()
 {
+    howToVector();
     homeworkArray();
-    findMinAndMax();
 //    Timer codeTimer;
 //    codeTimer.startTimer();
 //    cout << "look on the screen" << endl;
@@ -92,5 +92,15 @@ void Controller :: homeworkArray()
 
 void Controller :: howToVector()
 {
+    vector<int> blegh (4, 100);
+    vector<string> grrr (3, "sucker");
     
+    for (int i = 0; i < 4; i++)
+    {
+        cout << blegh[i] << endl;
+    }
+    for (int i = 0; i< 3; i++)
+    {
+        cout << grrr[i] << endl;
+    }
 }
