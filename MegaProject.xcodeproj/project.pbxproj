@@ -27,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB69AA7C2028E2C400AC9767 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		FB8ACC062024EEE4001D91C5 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		FBB94D882022434E0067688E /* MegaProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB94D92202244000067688E /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				FB8ACC062024EEE4001D91C5 /* Array.hpp */,
+				FB69AA7C2028E2C400AC9767 /* Node.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
