@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB373F97202A33D9002A66B7 /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB373F95202A33D9002A66B7 /* ArrayTester.cpp */; };
 		FBB94D93202244000067688E /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBB94D92202244000067688E /* Runner.cpp */; };
 		FBB94D97202244750067688E /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBB94D95202244750067688E /* Controller.cpp */; };
 		FBB94D9B202247580067688E /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBB94D99202247580067688E /* Timer.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB373F95202A33D9002A66B7 /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
+		FB373F96202A33D9002A66B7 /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
 		FB69AA7C2028E2C400AC9767 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		FB8ACC062024EEE4001D91C5 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		FBB94D882022434E0067688E /* MegaProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaProject; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB373F94202A33BB002A66B7 /* Testers */ = {
+			isa = PBXGroup;
+			children = (
+				FB373F95202A33D9002A66B7 /* ArrayTester.cpp */,
+				FB373F96202A33D9002A66B7 /* ArrayTester.hpp */,
+			);
+			path = Testers;
+			sourceTree = "<group>";
+		};
 		FB8ACC012024EE63001D91C5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +93,7 @@
 		FBB94D8A2022434E0067688E /* MegaProject */ = {
 			isa = PBXGroup;
 			children = (
+				FB373F94202A33BB002A66B7 /* Testers */,
 				FB8ACC012024EE63001D91C5 /* Model */,
 				FBB94DA0202250B00067688E /* Data */,
 				FBB94D942022444E0067688E /* Controller */,
@@ -181,6 +194,7 @@
 				FBB94DA9202255C50067688E /* CrimeData.cpp in Sources */,
 				FBB94D93202244000067688E /* Runner.cpp in Sources */,
 				FBB94D97202244750067688E /* Controller.cpp in Sources */,
+				FB373F97202A33D9002A66B7 /* ArrayTester.cpp in Sources */,
 				FBB94D9E20224DC60067688E /* FileController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

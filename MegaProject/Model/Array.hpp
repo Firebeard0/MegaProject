@@ -96,6 +96,12 @@ Array<Type> :: Array (const Array<Type> & toCopy)
         assert(index >= 0 && index < size);
         return internalArray[index];
     }
+
+
+
+
+
+
     template <class Type>
     int Array<Type> :: getSize() const
     {
