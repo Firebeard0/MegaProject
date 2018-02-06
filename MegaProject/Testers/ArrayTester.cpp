@@ -7,6 +7,7 @@
 //
 
 #include "ArrayTester.hpp"
+#include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Data/CrimeData.cpp"
 
 void ArrayTester:: testArrayUse()
 {
@@ -40,5 +41,23 @@ void ArrayTester:: testArrayUse()
 
 void ArrayTester:: testAdvancedArray()
 {
+    vector<CrimeData> test = FileController :: readCrimeDataToVector("/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Data/crime.csv");
+    int arraySize = test.size();
     
+    Array<CrimeData> data(arraySize);
+    for (int i = 0; i < arraySize; i++)
+    {
+     data[i] = test[i]
+    }
+    
+    Timer vectorTimer;
+    Timer arrayTimer;
+    vectorTimer.startTimer();
+    cout << test[3425] << endl;
+    vectorTimer.stopTimer();
+    vectorTimer.displayInformation();
+    arrayTimer.startTimer();
+    cout << data[3425]<< endl;
+    arrayTimer.stopTimer();
+    arrayTimer.displayInformation();
 }
