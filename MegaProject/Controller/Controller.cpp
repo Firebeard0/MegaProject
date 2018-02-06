@@ -104,3 +104,15 @@ void Controller :: howToVector()
         cout << grrr[i] << endl;
     }
 }
+
+void Controller:: consoleOutput()
+{
+    cout << "noah" << endl;
+    for (int i = 13; i < 31; i++)
+    {
+        cout << i << endl;
+    }
+    string n = "noah";
+    cout << n << endl;
+    cout << n << "noah" << endl;
+}

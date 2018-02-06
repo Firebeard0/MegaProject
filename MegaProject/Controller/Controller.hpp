@@ -24,6 +24,7 @@ private:
     void testArray();
     void homeworkArray();
     void howToVector();
+    void consoleOutput();
 };
 
 #endif /* Controller_hpp */

@@ -19,4 +19,6 @@ public:
     void testArrayUse();
     void testAdvancedArray();
 };
+
+
 #endif /* ArrayTester_hpp */
