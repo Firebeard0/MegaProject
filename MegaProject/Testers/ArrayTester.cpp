@@ -7,7 +7,6 @@
 //
 
 #include "ArrayTester.hpp"
-#include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Data/CrimeData.cpp"
 
 void ArrayTester:: testArrayUse()
 {
@@ -47,7 +46,7 @@ void ArrayTester:: testAdvancedArray()
     Array<CrimeData> data(arraySize);
     for (int i = 0; i < arraySize; i++)
     {
-     data[i] = test[i]
+        data[i] = test[i];
     }
     
     Timer vectorTimer;

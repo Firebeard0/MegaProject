@@ -8,10 +8,10 @@
 
 #ifndef ArrayTester_hpp
 #define ArrayTester_hpp
-#include "iostream"
+#include <iostream>
 #include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Model/Array.hpp"
 #include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Controller/Tools/Timer.hpp"
-#include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Controller/Tools/Timer.hpp"
+#include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/FileController.hpp"
 
 class ArrayTester
 {

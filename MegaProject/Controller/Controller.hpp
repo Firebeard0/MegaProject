@@ -14,6 +14,7 @@
 #include "Tools/Timer.hpp"
 #include "FileController.hpp"
 #include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Model/Array.hpp"
+#include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Testers/ArrayTester.hpp"
 
 class Controller
 {
@@ -25,6 +26,8 @@ private:
     void homeworkArray();
     void howToVector();
     void consoleOutput();
+    void testArrayUse();
+    void testAdvancedArray();
 };
 
 #endif /* Controller_hpp */
