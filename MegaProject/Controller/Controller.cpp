@@ -14,8 +14,9 @@ using namespace std;
 
 void Controller:: start()
 {
-    howToVector();
-    homeworkArray();
+    consoleOutput();
+//    howToVector();
+//    homeworkArray();
 //    Timer codeTimer;
 //    codeTimer.startTimer();
 //    cout << "look on the screen" << endl;
@@ -108,7 +109,7 @@ void Controller :: howToVector()
 void Controller:: consoleOutput()
 {
     cout << "noah" << endl;
-    for (int i = 13; i < 31; i++)
+    for (int i = 13; i < 32; i++)
     {
         cout << i << endl;
     }
