@@ -13,6 +13,7 @@
 		FBB94D9B202247580067688E /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBB94D99202247580067688E /* Timer.cpp */; };
 		FBB94D9E20224DC60067688E /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBB94D9C20224DC60067688E /* FileController.cpp */; };
 		FBB94DA9202255C50067688E /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBB94DA6202255C50067688E /* CrimeData.cpp */; };
+		FBCF8DFC203611F900E672F3 /* LinkedListTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBCF8DFA203611F900E672F3 /* LinkedListTester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,9 @@
 		FBB94DA6202255C50067688E /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		FBB94DA7202255C50067688E /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		FBB94DA8202255C50067688E /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
+		FBCF8DFA203611F900E672F3 /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
+		FBCF8DFB203611F900E672F3 /* LinkedListTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListTester.hpp; sourceTree = "<group>"; };
+		FBD7525E2034BE1000E96975 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		FBDE1D2D202CD66800107015 /* LinearNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearNode.h; sourceTree = "<group>"; };
 		FBDE1D2E202CDAF200107015 /* List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +67,8 @@
 			children = (
 				FB373F95202A33D9002A66B7 /* ArrayTester.cpp */,
 				FB373F96202A33D9002A66B7 /* ArrayTester.hpp */,
+				FBCF8DFA203611F900E672F3 /* LinkedListTester.cpp */,
+				FBCF8DFB203611F900E672F3 /* LinkedListTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -74,6 +80,7 @@
 				FB69AA7C2028E2C400AC9767 /* Node.h */,
 				FBDE1D2D202CD66800107015 /* LinearNode.h */,
 				FBDE1D2E202CDAF200107015 /* List.h */,
+				FBD7525E2034BE1000E96975 /* LinkedList.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +205,7 @@
 				FBB94DA9202255C50067688E /* CrimeData.cpp in Sources */,
 				FBB94D93202244000067688E /* Runner.cpp in Sources */,
 				FBB94D97202244750067688E /* Controller.cpp in Sources */,
+				FBCF8DFC203611F900E672F3 /* LinkedListTester.cpp in Sources */,
 				FB373F97202A33D9002A66B7 /* ArrayTester.cpp in Sources */,
 				FBB94D9E20224DC60067688E /* FileController.cpp in Sources */,
 			);

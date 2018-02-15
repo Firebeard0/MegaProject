@@ -9,6 +9,7 @@
 #ifndef FileController_hpp
 #define FileController_hpp
 #include "CrimeData.hpp"
+#include "LinkedList.h"
 #include <string>
 #include <fstream>
 #include <iostream>
@@ -21,6 +22,7 @@ class FileController
 {
 public:
     static vector<CrimeData> readCrimeDataToVector(string filename);
+    static LinkedList<CrimeData> readDataToList(string filename);
 };
 
 #endif /* FileController_hpp */
