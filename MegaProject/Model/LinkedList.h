@@ -9,7 +9,6 @@
 
 #include "List.h"
 
-using namespace std;
 #ifndef LinkedList_h
 #define LinkedList_h
 
@@ -27,10 +26,10 @@ public:
     LinearNode<Type> * getFront();
     LinearNode<Type> * getEnd();
     
-    void add(Type item);
-    void getFromIndex(int index, Type item);
-    Type getFromIndex(int index);
-    Type remove(int index);
+    virtual void add(Type item);
+    virtual void getFromIndex(int index, Type item);
+    virtual Type getFromIndex(int index);
+    virtual Type remove(int index);
 };
 
 LinkedList<Type> :: LinkedList()

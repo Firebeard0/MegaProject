@@ -33,6 +33,7 @@
 		FB373F96202A33D9002A66B7 /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
 		FB69AA7C2028E2C400AC9767 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		FB8ACC062024EEE4001D91C5 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		FBA7CB23203F4DE500B6F47B /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		FBB94D882022434E0067688E /* MegaProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB94D92202244000067688E /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		FBB94D95202244750067688E /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 				FBDE1D2D202CD66800107015 /* LinearNode.h */,
 				FBDE1D2E202CDAF200107015 /* List.h */,
 				FBD7525E2034BE1000E96975 /* LinkedList.h */,
+				FBA7CB23203F4DE500B6F47B /* Stack.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
