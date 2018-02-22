@@ -137,8 +137,8 @@
 		FBB94DA0202250B00067688E /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				FBB94DA8202255C50067688E /* crime.csv */,
 				FBB94DA6202255C50067688E /* CrimeData.cpp */,
+				FBB94DA8202255C50067688E /* crime.csv */,
 				FBB94DA7202255C50067688E /* CrimeData.hpp */,
 			);
 			path = Data;
