@@ -34,6 +34,7 @@
 		FB69AA7C2028E2C400AC9767 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		FB8ACC062024EEE4001D91C5 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		FBA1FE6120448F6700003F26 /* DoubleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleNode.h; sourceTree = "<group>"; };
+		FBA1FE6220449B4F00003F26 /* CircularList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularList.h; sourceTree = "<group>"; };
 		FBA7CB23203F4DE500B6F47B /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		FBA7CB24203F568100B6F47B /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		FBB94D882022434E0067688E /* MegaProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaProject; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +87,7 @@
 				FBD7525E2034BE1000E96975 /* LinkedList.h */,
 				FBA7CB23203F4DE500B6F47B /* Stack.h */,
 				FBA1FE6120448F6700003F26 /* DoubleNode.h */,
+				FBA1FE6220449B4F00003F26 /* CircularList.h */,
 				FBA7CB24203F568100B6F47B /* Queue.h */,
 			);
 			path = Model;
