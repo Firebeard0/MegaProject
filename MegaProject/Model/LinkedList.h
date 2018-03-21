@@ -32,21 +32,21 @@ public:
     virtual Type remove(int index);
 };
 
-LinkedList<Type> :: LinkedList()
+template<> LinkedList<Type> :: LinkedList()
 {
     this -> front = nullptr;
     this -> end = nullptr;
     this -> size = 0;
 }
 
-LinkedList<Type> :: ~LinkedList()
+template<> LinkedList<Type> :: ~LinkedList()
 {
     LinearNode<Type> * destroyStructure = front;
     while (front != nullptr)
     {
         front = destroyStructure->getNextNode();
         delete destroyStructure;
-        destroyStrucure = front;
+        destroyStructure = front;
     }
 }
 

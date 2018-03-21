@@ -33,6 +33,9 @@ void Controller:: start()
 //    }
 //    codeTimer.stopTimer();
 //    codeTimer.displayInformation();
+    RecursionTester test;
+    test.testRecursionString();
+    test.testRecursionNumbers();
 }
 
 void Controller :: testArray()

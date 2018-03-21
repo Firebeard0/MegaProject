@@ -10,10 +10,10 @@
 #define LinearNode_h
 #include "Node.h"
 
-template <class type>
+template <class Type>
 class LinearNode : public Node<Type> {
 protected:
-    LineardNode<Type> * next;
+    LinearNode<Type> * next;
     
 public:
     LinearNode();

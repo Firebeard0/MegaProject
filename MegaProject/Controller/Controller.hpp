@@ -15,6 +15,7 @@
 #include "FileController.hpp"
 #include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Model/Array.hpp"
 #include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Testers/ArrayTester.hpp"
+#include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Testers/RecursionTester.hpp"
 
 class Controller
 {
