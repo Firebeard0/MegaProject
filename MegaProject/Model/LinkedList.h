@@ -5,15 +5,13 @@
 //  Created by Uffens, Noah on 2/14/18.
 //  Copyright © 2018 Uffens, Noah. All rights reserved.
 //
-
-
-#include "List.h"
-
 #ifndef LinkedList_h
 #define LinkedList_h
 
+#include "List.h"
+
 template <class Type>
-class LinkedList : public List<class Type> {
+class LinkedList : public List<Type> {
 protected:
     LinearNode<Type> * front;
     LinearNode<Type> * end;
@@ -27,19 +25,21 @@ public:
     LinearNode<Type> * getEnd();
     
     virtual void add(Type item);
+    virtual void addAtIndex(int index,Type item);
+
     virtual void getFromIndex(int index, Type item);
     virtual Type getFromIndex(int index);
     virtual Type remove(int index);
 };
 
-template<> LinkedList<Type> :: LinkedList()
+template<class Type> LinkedList<Type> :: LinkedList()
 {
     this -> front = nullptr;
     this -> end = nullptr;
     this -> size = 0;
 }
 
-template<> LinkedList<Type> :: ~LinkedList()
+template<class Type> LinkedList<Type> :: ~LinkedList()
 {
     LinearNode<Type> * destroyStructure = front;
     while (front != nullptr)
@@ -50,11 +50,11 @@ template<> LinkedList<Type> :: ~LinkedList()
     }
 }
 
-void LinkedList<Type> :: add(Type item)
+template <class Type> void LinkedList<Type> :: add(Type item)
 {
     LinearNode<Type> * newData = new LinearNode<Type>(item);
     
-    is(this->size == 0)
+    if(this->size == 0)
     {
         this->front = newData;
     }
@@ -66,7 +66,7 @@ void LinkedList<Type> :: add(Type item)
     this-> size += 1;
 }
 
-void LinkedList<Type> :: addAtIndex(int index, Type item)
+template <class Type> void LinkedList<Type> :: addAtIndex(int index, Type item)
 {
     assert(index >= 0 && index <= this->size);
     if(index == this->size)
@@ -91,10 +91,10 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
             previous->setNextNode(toBeAdded);
             toBeAdded->setNextNode(current);
         }
-        this->size++
+        this->size++;
     }
 }
-Type LinkedList <Type> :: getFromIndex(int index)
+template <class Type> Type LinkedList <Type> :: getFromIndex(int index)
 {
     assert(index >= 0 && index < this->size);
     Type data;
@@ -112,41 +112,8 @@ Type LinkedList <Type> :: getFromIndex(int index)
     
 }
 
-Type LinkedList<Type
-}
-LinkedList<CrimeData> FileController :: readDataToList(string filename)
-{
-    LinkedList<CrimeData> crimes;
-    
-    string currentCSVLine;
-    int rowCount = 0;
-    
-    ifstream dataFile(fileName);
-    
-    if (dataFile.is_open())
-    {
-        while (!dataFile.eof())
-        {
-            getline(dataFile, currentCSVLine, '/r');
-            if (rowCount != 0;)
-                {
-                   if (currentCSVLine.length() != 0)
-                   {
-                       CrimeData row(currentCSVLine);
-                       crimes.add(row);
-                   }
-                }
-            rowCount++;
-        }
-        dataFile.close();
-}
-    else
-    {
-        cerr << "NO FILE" << endl;
-    }
-    
-    return crimes;
-}
+
+
 
 
 

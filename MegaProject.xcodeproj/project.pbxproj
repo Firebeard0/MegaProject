@@ -44,6 +44,8 @@
 		FBA1FE6220449B4F00003F26 /* CircularList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularList.h; sourceTree = "<group>"; };
 		FBA7CB23203F4DE500B6F47B /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		FBA7CB24203F568100B6F47B /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		FBB5CE7F20939F6C0044A55A /* HashNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashNode.h; sourceTree = "<group>"; };
+		FBB5CE802093A1620044A55A /* Hashtable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hashtable.h; sourceTree = "<group>"; };
 		FBB94D882022434E0067688E /* MegaProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MegaProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB94D92202244000067688E /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		FBB94D95202244750067688E /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		FBB94DA6202255C50067688E /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		FBB94DA7202255C50067688E /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		FBB94DA8202255C50067688E /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
+		FBC1BDA520866C0000C7B874 /* AVLtree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVLtree.h; sourceTree = "<group>"; };
 		FBCADB8E204DC566009C3D98 /* RecursionTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RecursionTester.cpp; sourceTree = "<group>"; };
 		FBCADB8F204DC566009C3D98 /* RecursionTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RecursionTester.hpp; sourceTree = "<group>"; };
 		FBCF8DFA203611F900E672F3 /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
@@ -66,6 +69,7 @@
 		FBDF3724206ACAC70072A44F /* BinaryTreeTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeTester.cpp; sourceTree = "<group>"; };
 		FBDF3725206ACAC70072A44F /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
 		FBDF3727206AD4360072A44F /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		FBFE40D5208E5146006057E7 /* N_AryTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N_AryTreeNode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,10 @@
 				FB26EAC32060371A00678B15 /* Graph.h */,
 				FBDF3727206AD4360072A44F /* Tree.h */,
 				FB3CF42A206D60DC00D50E67 /* BinarySearchTree.h */,
+				FBC1BDA520866C0000C7B874 /* AVLtree.h */,
+				FBFE40D5208E5146006057E7 /* N_AryTreeNode.h */,
+				FBB5CE7F20939F6C0044A55A /* HashNode.h */,
+				FBB5CE802093A1620044A55A /* Hashtable.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";

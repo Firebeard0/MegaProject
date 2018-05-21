@@ -22,9 +22,9 @@ public:
     virtual Type remove(int index) = 0;
     virtual Type getFromIndex(int index) = 0;
     
-    virtual in getSize() const = 0;
+    virtual int getSize() const = 0;
     virtual LinearNode<Type> * getFront() = 0;
-    virtual LinearNOde<Type> * getEnd() = 0;
+    virtual LinearNode<Type> * getEnd() = 0;
 };
 
 #endif /* List_h */
