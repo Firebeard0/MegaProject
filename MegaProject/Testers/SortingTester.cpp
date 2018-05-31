@@ -9,13 +9,12 @@
 #include "SortingTester.hpp"
 void SortingTester :: quickSort(vector<CrimeData> & data, int low, int high)
 {
-    if(low < high)
+    if (low < high)
     {
         int partitionPoint = partition(data, low, high);
-        quickSort(data, low, participationPoint - 1);
+        quickSort(data, low, partitionPoint - 1);
         quickSort(data, partitionPoint + 1, high);
     }
-    
 }
 
 int SortingTester :: partition(vector<CrimeData> & data, int low, int high)
@@ -36,13 +35,25 @@ int SortingTester :: partition(vector<CrimeData> & data, int low, int high)
 
 void SortingTester :: swap(vector<CrimeData> & data, int low, int high)
 {
-    CrimeData temp = info[small];
-    info[small] = info[large];
-    info[large] = temp;
+    CrimeData temp = data[low];
+    data[low] = data[high];
+    data[high] = temp;
     swapCount++;
 }
 
 void SortingTester :: testSorts()
 {
-    
+    Timer sortTimer;
+    swapCount = 0;
+    vector<CrimeData> data = FileController::readCrimeDataToVector("/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Data/crime.csv");
+    vector<CrimeData> smaller;
+    for (int i = 0; i < 10000; i++)
+    {
+        smaller.push_back(data[i]);
+    }
+    sortTimer.startTimer();
+    quickSort(smaller, 0, smaller.size());
+    sortTimer.stopTimer();
+    sortTimer.displayInformation();
+    cout << "The number of swaps were: " << swapCount << endl;
 }

@@ -5,15 +5,15 @@
 //  Created by Uffens, Noah on 3/15/18.
 //  Copyright © 2018 Uffens, Noah. All rights reserved.
 //
-
-#define SortingTester_hpp
 #ifndef SortingTester_hpp
+#define SortingTester_hpp
+
 
 #include <iostream>
 #include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Controller/Controller.hpp"
 #include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Controller/Tools/Timer.hpp"
 
-class SortingTester_hpp
+class SortingTester
 {
 private:
     int swapCount;
@@ -22,7 +22,7 @@ private:
     void swap(vector<CrimeData>& info, int small, int large);
     
 public:
-    void tesstSorts()
+    void testSorts();
 };
 #endif /* SortingTester_hpp */
 

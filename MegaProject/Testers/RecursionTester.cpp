@@ -44,7 +44,7 @@ void RecursionTester:: testRecursionNumbers()
 }
 
 
-vpod RecursionTester :: testRecursionString()
+void RecursionTester :: testRecursionString()
 {
     
 }
