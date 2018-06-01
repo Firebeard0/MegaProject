@@ -16,7 +16,6 @@ class HashNode : public Node<Type>
 private:
     long key;
 public:
-    <#member functions#>
 };
 
 #endif /* HashNode_h */

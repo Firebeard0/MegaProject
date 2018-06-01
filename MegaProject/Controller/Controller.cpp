@@ -9,12 +9,14 @@
 #include "Controller.hpp"
 #include "vector"
 #include "iostream"
+#include "../Testers/LinkedListTester.hpp"
+#include "/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Testers/GraphTester.hpp"
 
 using namespace std;
 
 void Controller:: start()
 {
-    consoleOutput();
+//    consoleOutput();
 //    howToVector();
 //    homeworkArray();
 //    Timer codeTimer;
@@ -26,16 +28,20 @@ void Controller:: start()
 //    codeTimer.startTimer();
 //
 //    vector<CrimeData> myData = FileController :: readCrimeDataToVector("/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Data/crime.csv");
-//
+//    LinkedListTester test;
+//    test.testListBasics();
+//    test.testListWithData();
+    GraphTester graph;
+    graph.testGraphs();
 //    for (int i = 200; i < 215; i++)
 //    {
 //        cout << i << " is " << myData[i] << endl;
 //    }
 //    codeTimer.stopTimer();
 //    codeTimer.displayInformation();
-    RecursionTester test;
-    test.testRecursionString();
-    test.testRecursionNumbers();
+ //   RecursionTester test;
+//    test.testRecursionString();
+//    test.testRecursionNumbers();
 }
 
 void Controller :: testArray()

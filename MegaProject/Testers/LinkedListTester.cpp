@@ -64,7 +64,7 @@ void LinkedListTester :: testListWithData()
     Timer listTimer;
     
     listTimer.startTimer();
-    LinkedList<CrimeData> crimes = FileController :: readDataToList("/Users/bcha1422/Documents/C++ Projects/DataStructureProject/DataStructureProject/Data/crime.csv");
+    LinkedList<CrimeData> crimes = FileController :: readDataToList("/Users/nuff6998/Documents/SwiftCode/MegaProject/MegaProject/Data/crime.csv");
     
     listTimer.stopTimer();
     cout << "This is how long it took to read the structure into our custom data structure" << endl;
